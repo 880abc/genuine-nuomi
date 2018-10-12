@@ -1,10 +1,10 @@
 var gulp = require('gulp');
 //require:相当于<script src="gulp.js"></script>
-var concat =require("gulp-concat");
+// var concat =require("gulp-concat");
 var sass=require("gulp-sass");
-var rename=require("gulp-rename");
+// var rename=require("gulp-rename");
 
-let basepath = "D:\\phpStudy\\WWW\\caomao";	
+let basepath = "D:\\phpStudy\\WWW\\nuomi";	
 //定义一个复制文件的任务
 //task函数的第一个参数：copyHtml是任务名
 //task函数的第二个参数function是任务copyHtml对应的功能
@@ -25,11 +25,11 @@ gulp.task("sass",function(){
 	.pipe(sass())
 	.pipe(gulp.dest(basepath+"\\css"));
 });
-gulp.task("sass",function(){
-	gulp.src("sass/sidebar.scss")
-	.pipe(sass())
-	.pipe(gulp.dest(basepath+"\\css"));
-});
+// gulp.task("sass",function(){
+// 	gulp.src("sass/sidebar.scss")
+// 	.pipe(sass())
+// 	.pipe(gulp.dest(basepath+"\\css"));
+// });
 gulp.task("build",["copy-html","copy-img","sass","copy-js"],function(){
 	console.log("ok le");
 });
