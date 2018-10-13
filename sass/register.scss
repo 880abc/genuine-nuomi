@@ -85,10 +85,15 @@ input{
 	background:#f7f7f7;
 	cursor: pointer;
 }
-.content_left form input:nth-of-type(7){
+.content_left form input:nth-of-type(6){
 	width:350px;
 	height:50px;
 	cursor: pointer;
+	margin-left:54px;
+	background:#fa6790;
+	border:none;
+	color:white;
+	font-size:20px;
 }
 .content_left form p input{
 	width:14px;
@@ -111,4 +116,61 @@ input{
 }
 .content_left form label:nth-of-type(3){
 	padding-left:16px;
+}
+.content_right{
+	float:right;
+	width:258px;
+	height:431px;
+	background:#f5fbff;
+	border:1px solid #d1eeff;
+	margin-right:110px;
+	margin-top:40px;
+}
+.content_right .cr_top{
+	margin:10px;
+	border-bottom:1px solid #e6edf2;
+	padding-bottom: 11px;
+}
+.content_right .cr_top img{
+	vertical-align:middle;
+}
+.content_right .cr_top span{
+	color:#666;
+	font-size:16px;
+	font-weight:600;
+}
+.content_right .cr_content1{
+	margin:10px;
+	padding-top:8px;
+}
+.content_right .cr_content1 .black{
+	font-size:12px;
+	line-height:30px;
+	color:#666;
+}
+.content_right .cr_content1 .red{
+	font-size:14px;
+	color:#f18300;
+	font-weight:600;
+}
+.content_right .cr_foot{
+	margin-left:50px;
+}
+.content_right .cr_foot img{
+	width:156px;
+	height:156px;
+}
+.content_right .cr_foot p{
+	padding-left:14px;
+}
+.foot{
+	width:1200px;
+	height:220px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 220px;
+}
+.foot p{
+	font-size:16px;
+	color:#7a77de;
 }
