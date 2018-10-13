@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var sass=require("gulp-sass");
 // var rename=require("gulp-rename");
 
-let basepath = "D:\\phpStudy\\WWW\\nuomi";	
+let basepath = "D:\\phpStudy\\WWW\\genuine-nuomi";	
 //定义一个复制文件的任务
 //task函数的第一个参数：copyHtml是任务名
 //task函数的第二个参数function是任务copyHtml对应的功能
